@@ -9,22 +9,20 @@
     <ion-card>
         <ion-card-header>Contact</ion-card-header>
         <ion-card-content class="grid-container">
-        <img src="{{ contact.photo }}"class="one">
+        <img src="{{ contact.photo }}"class="one" class="col-sm-4">
         <div class="two">
-          <div><p>
+          <div class="row">
+            
+              <div class="col-sm-4"><p>
             Nom :  <strong>{{ contact.nom }}</strong>
-            </p>
-            <p>
-            Prénom :  <strong>{{ contact.prenom }}</strong>
             </p></div>
-        
-        <br>
-        <P>
-        Email :  <strong>{{ contact.email }}</strong>
-        </P>
-        <P>
-        Age :  <strong>{{ contact.age }}</strong>
-        </P>
+            <div class="col-sm border">
+            <p>McDonald's Corporation est une chaîne de restauration 
+              rapide américaine fondée par l'homme d'affaires Ray Kroc 
+              en 1952 après qu'il eut acheté les droits d'une petite 
+              chaîne de hamburger exploitée à partir de 1940 par 
+              Richard et Maurice McDonald.</p></div>
+         </div>
         
         </div>
        

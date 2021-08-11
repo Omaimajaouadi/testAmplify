@@ -7,7 +7,7 @@ import { NavController } from '@ionic/angular';
 })
 export class HomePage implements OnInit {
 item={
-  photo:'/assets/icon/1.jpg'
+  photo:'/assets/image/image3.jpg'
 }
   constructor(public nav:NavController) {}
 
